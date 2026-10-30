@@ -14,3 +14,4 @@ templates/는 선택적 빈 양식이다. 공식 필수 문서가 있으면 그 
 공개 자료를 썼으면 출처·용도·수정 내용을 기록한다. 개인 자격증명을 요구하지 않으며, 과제 파일·답변·로그를 외부로 전송하거나 Git Push하지 않는다.
 skills/*.md는 일반 Markdown 절차 문서다. 자동 설치되는 Codex 스킬이 아니므로 해당 경로를 명시적으로 읽는다.
 새 환경 점검이나 데이터·예외·AI 출력 검토가 필요할 때만 guides/CAPABILITY_MENU.md에서 해당 skill-library 문서를 골라 읽는다. 모든 스킬·MCP를 한 번에 로드하거나 설치하지 않는다.
+작업 지시에는 목표·허용 범위·완료 조건을 담고, 상태를 잃었을 때만 guides/PROMPTING_AND_STATE.md를 참고한다. 독립적인 하위 작업을 위임할 때는 skill-library/parallel-task-coordination/SKILL.md를 읽는다. 기능·허용 모델을 확인하고 첫 작업 1명부터 시작하며, 파일 소유권을 분리하고 메인이 통합·최종 검증한다. 미지원이면 순차 수행한다.
