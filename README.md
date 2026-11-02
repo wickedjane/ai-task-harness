@@ -23,11 +23,11 @@ git clone --depth 1 https://github.com/wickedjane/ai-task-harness.git ai-task-ha
 | AGENTS.md · PLAN.md | 시작할 때: 작업 원칙과 시간 배분 |
 | skills/interview.md · scope.md | 요구사항 확인과 범위 결정 |
 | skills/verify.md | 실제 실행과 요구사항 대조 |
-| skills/explain.md | 제출 전에 자신의 구현을 설명하는 연습 |
-| templates/의 요구사항·결정·검증 양식 3개 | 공식 양식이 없고 기록할 틀이 필요할 때만 |
+| skills/explain.md | 설계 결정·핵심 기능 완성 때 이해 점검, 제출 전 직접 설명 연습 |
+| templates/의 요구사항·설계/결정·검증/한계 양식 3개 | 아키텍처·대안·절충·데이터 부족·실행 근거를 기록할 틀이 필요할 때만 |
 | skill-library/data-check/SKILL.md | 데이터 정제·SQL 집계·분석·보고서: 결측·조인·지표·검산·재현 |
 | skill-library/ai-output-check/SKILL.md | 제품 기능에 모델 출력이 있을 때: 출력 계약·고정 사례·품질 비교 |
-| skill-library/parallel-task-coordination/SKILL.md | 지원되는 환경에서 독립 작업을 위임할 때만 |
+| skill-library/parallel-task-coordination/SKILL.md | 서브에이전트나 별도 터미널로 독립 작업을 나누고 통합할 때 |
 
 총 13개 파일이며 기본으로 읽는 것은 2개입니다. 과제를 읽은 뒤 해당하는 보조 스킬만 추가로 읽습니다. 별도 의존성·MCP 설정·모델 설정·역할 설정은 없습니다. 절차 문서와 선택 스킬은 필요할 때 파일을 직접 읽으면 되며 설치하지 않아도 됩니다. 보조 스킬은 자체 작성물입니다.
 
