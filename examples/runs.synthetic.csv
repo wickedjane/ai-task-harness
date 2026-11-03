@@ -1,0 +1,5 @@
+run_id,data_version,constraint_set,metric_definition,method,evidence_kind,valid,runtime_seconds,cost,quality
+base,synthetic-v1,checks-v1,cost-units-quality-points-v1,simple baseline,synthetic,true,1,100,60
+candidate-a,synthetic-v1,checks-v1,cost-units-quality-points-v1,alternative A,synthetic,true,3,80,70
+candidate-b,synthetic-v1,checks-v1,cost-units-quality-points-v1,alternative B,synthetic,true,5,90,85
+invalid,synthetic-v1,checks-v1,cost-units-quality-points-v1,failed constraint example,synthetic,false,2,40,99
