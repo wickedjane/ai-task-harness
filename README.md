@@ -23,7 +23,7 @@ git clone --depth 1 https://github.com/wickedjane/ai-task-harness.git ai-task-ha
 | AGENTS.md · PLAN.md | 시작할 때: 작업 원칙과 시간 배분 |
 | skills/interview.md · scope.md | 요구사항 확인과 범위 결정 |
 | skills/verify.md | 실제 실행과 요구사항 대조 |
-| skills/explain.md | 설계 결정·핵심 기능 완성 때 이해 점검, 제출 전 직접 설명 연습 |
+| skills/explain.md | 실제 기술·DB·파일/함수·호출 경로가 연결된 구조도와 이해 점검, 제출 전 직접 설명 연습 |
 | templates/의 요구사항·설계/결정·검증/한계 양식 3개 | 아키텍처·대안·절충·데이터 부족·실행 근거를 기록할 틀이 필요할 때만 |
 | skill-library/frontend-delivery/SKILL.md | 역할별 실제 화면·입출력 계약·디자인·폼 상태·권한·통합 검증 |
 | skill-library/evaluation-design/SKILL.md | 문제 유형별 지표·기준안 비교·차트·검증 한계 |
@@ -37,6 +37,8 @@ git clone --depth 1 https://github.com/wickedjane/ai-task-harness.git ai-task-ha
 총 20개 파일이며 기본으로 읽는 것은 2개입니다. 과제를 읽은 뒤 해당하는 보조 스킬만 추가로 읽습니다. 평가 보고서 도구는 Python 표준 라이브러리만 사용합니다. MCP·모델·역할 설정은 없습니다. 절차 문서와 선택 스킬은 필요할 때 파일을 직접 읽으면 되며 설치하지 않아도 됩니다. 보조 스킬은 자체 작성물입니다.
 
 데이터·AI 출력 스킬은 일반 개발 절차에서 놓치기 쉬운 검증 기준이 있어 포함했습니다. 환경 점검·예외 재현·화면 상태·통과 기준은 기존 단계 문서에 통합했습니다. 원본 플러그인은 선택 가이드에 출처·용도·조건만 안내하고 코드·자산을 포함하거나 자동 설치하지 않습니다. 커스텀 역할 TOML과 중복 양식은 포함하지 않습니다.
+
+구조도는 실제 과제 코드에 맞춰 작성합니다. 어떤 DB·알고리즘 파일·함수를 쓰는지, 어떤 연결이 HTTP API이고 어떤 연결이 내부 함수/DB 접근인지 표시합니다. 기존 문서의 Mermaid 미리보기 또는 외부 연결 없는 SVG/HTML로 확인하고 구현 대응표를 함께 읽습니다. 구조가 바뀐 변경 묶음 후와 최종 통합 때 갱신합니다. 양식은 `templates/DECISIONS.md`에 있으며 도식을 위한 추가 도구는 기본 설치하지 않습니다.
 
 ## 수정할 때 검증을 묶기
 
