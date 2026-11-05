@@ -14,7 +14,8 @@ https://github.com/wickedjane/ai-task-harness 를 참고용 하위 폴더에 clo
 PLAN의 이정표마다 지금 무엇을 끝내고 다음 무엇으로 전환해야 하는지 알려줘.
 실제 코드는 원래 과제 공간에, 필요한 기록은 그 안의 docs/에 두고 경로를 알려줘.
 테스트 방침은 skills/verify.md에 따라 시작 때 확인하고 내가 정한 방침을 유지해 줘.
-핵심 구현과 선택 이유를 중간에 설명하고 SUMMARY는 내가 내 말로 쓰게 도와줘.
+핵심 구현과 선택 이유를 중간에 설명하고 SUMMARY는 네가 실제 코드와 기록으로 작성해 줘.
+직접 쓰거나 답변 연습을 하라고 요구하지 말고 제출 확정 전에 2~3분 안에 훑게 보여줘.
 이후 문서는 지금 단계에 필요한 것만 읽어 줘.
 ```
 
@@ -33,9 +34,9 @@ git clone --depth 1 https://github.com/wickedjane/ai-task-harness.git ai-task-ha
 | AGENTS.md · PLAN.md | 시작할 때: 작업 원칙과 시간 배분 |
 | skills/interview.md · scope.md | 요구 확인, 주된 목적별 흐름·산출물·완료 기준 선택 |
 | skills/verify.md | 실제 실행과 요구사항 대조 |
-| skills/explain.md | 실제 기술·DB·파일/함수·호출 경로가 연결된 구조도와 이해 점검, 제출 전 직접 설명 연습 |
+| skills/explain.md | 실제 기술·DB·파일/함수·호출 경로가 연결된 구조도와 AI의 설명, 제출 전 요약 |
 | templates/의 요구사항·설계/결정·검증 양식 | 시간·방침·아키텍처·대안·핸드오프·실행 근거를 기록할 때 |
-| templates/README.md · SUMMARY.md | 산출물 안내와 사용자 직접 설명 연습에 각각 필요한 경우 |
+| templates/README.md · SUMMARY.md | 산출물 안내와 AI가 작성하는 빠른 복습용 요약 |
 | skill-library/frontend-delivery/SKILL.md | 역할별 실제 화면·입출력 계약·디자인·폼 상태·권한·통합 검증 |
 | skill-library/evaluation-design/SKILL.md | 목적별 평가: 계획 비교·기준별 판정·주장 근거·지표·검증 한계 |
 | guides/OPTIONAL_TOOLS.md | 원본 디자인 플러그인이나 추가 도구가 필요할 때만 |
@@ -58,9 +59,9 @@ git clone --depth 1 https://github.com/wickedjane/ai-task-harness.git ai-task-ha
 | docs/VERIFY.md | 검사 대기·실행 근거·미검증·한계 — 통합 담당이 취합 |
 | docs/EVALUATION.md | 비교·판정·주장 근거 — 기존 결과에 없을 때만 |
 | docs/README.md | 실행/열람 방법·핵심 결과·기록 위치 — AI가 정리, 사용자 확인 |
-| docs/SUMMARY.md | 구조·구현·선택·절충·검증·한계를 내 말로 — 사용자, AI는 사실관계 피드백 |
+| docs/SUMMARY.md | 구조·구현·선택·절충·검증·한계를 한 페이지로 — AI 작성, 사용자는 제출 확정 전 훑기 |
 
-‘작업 기록’은 진행·결정이면 DECISIONS, 검사 대기·결과면 VERIFY를 뜻합니다. 원문 README를 산출물 README로 덮어쓰지 않습니다. SUMMARY는 제출 전 학습용이며 후속 평가에서 파일을 열람할 수 있다고 가정하지 않습니다. 실제 기록 경로를 정해 모든 세션에 전달합니다.
+‘작업 기록’은 진행·결정이면 DECISIONS, 검사 대기·결과면 VERIFY를 뜻합니다. 원문 README를 산출물 README로 덮어쓰지 않습니다. SUMMARY는 실제 근거를 정리한 제출 전 복습용이며 사용자가 하지 않은 판단·검증을 한 것처럼 쓰지 않습니다. 후속 평가에서는 파일을 열람할 수 없다고 전제합니다. 실제 기록 경로를 정해 모든 세션에 전달합니다.
 
 ## 목적별 흐름과 산출물
 
